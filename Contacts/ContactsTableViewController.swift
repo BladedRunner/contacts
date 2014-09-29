@@ -53,7 +53,7 @@ class Contacts: UITableViewController, dataUpdated {
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         }
     }
-    override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath!, toIndexPath destinationIndexPath: NSIndexPath) {
+    override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
         
         let fromContact = listOfContacts[sourceIndexPath.row]
         listOfContacts.removeAtIndex(sourceIndexPath.row)
