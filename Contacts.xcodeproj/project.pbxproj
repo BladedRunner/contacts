@@ -13,6 +13,10 @@
 		EA7BCBB719C68D9A00854AB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7BCBB619C68D9A00854AB1 /* Images.xcassets */; };
 		EA7BCBBA19C68D9A00854AB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7BCBB819C68D9A00854AB1 /* LaunchScreen.xib */; };
 		EA7BCBC619C68D9B00854AB1 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BCBC519C68D9B00854AB1 /* ContactsTests.swift */; };
+		EA7BCBD019C6922800854AB1 /* applelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BCBCF19C6922800854AB1 /* applelogo.png */; };
+		EA7BCBD219C6940100854AB1 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BCBD119C6940100854AB1 /* ContactsTableViewController.swift */; };
+		EA7BCBD419C6B04B00854AB1 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7BCBD319C6B04B00854AB1 /* ContactDetailsViewController.swift */; };
+		EADC01D919D8D1BD0077D8A5 /* ContactInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC01D819D8D1BD0077D8A5 /* ContactInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		EA7BCBBF19C68D9B00854AB1 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7BCBC419C68D9B00854AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7BCBC519C68D9B00854AB1 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		EA7BCBCF19C6922800854AB1 /* applelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applelogo.png; sourceTree = "<group>"; };
+		EA7BCBD119C6940100854AB1 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		EA7BCBD319C6B04B00854AB1 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		EADC01D819D8D1BD0077D8A5 /* ContactInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				EA7BCBAF19C68D9A00854AB1 /* AppDelegate.swift */,
 				EA7BCBB119C68D9A00854AB1 /* ViewController.swift */,
 				EA7BCBB319C68D9A00854AB1 /* Main.storyboard */,
+				EADC01D819D8D1BD0077D8A5 /* ContactInput.swift */,
+				EA7BCBD319C6B04B00854AB1 /* ContactDetailsViewController.swift */,
+				EA7BCBD119C6940100854AB1 /* ContactsTableViewController.swift */,
+				EA7BCBCF19C6922800854AB1 /* applelogo.png */,
 				EA7BCBB619C68D9A00854AB1 /* Images.xcassets */,
 				EA7BCBB819C68D9A00854AB1 /* LaunchScreen.xib */,
 				EA7BCBAD19C68D9A00854AB1 /* Supporting Files */,
@@ -195,6 +207,7 @@
 				EA7BCBB519C68D9A00854AB1 /* Main.storyboard in Resources */,
 				EA7BCBBA19C68D9A00854AB1 /* LaunchScreen.xib in Resources */,
 				EA7BCBB719C68D9A00854AB1 /* Images.xcassets in Resources */,
+				EA7BCBD019C6922800854AB1 /* applelogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +227,9 @@
 			files = (
 				EA7BCBB219C68D9A00854AB1 /* ViewController.swift in Sources */,
 				EA7BCBB019C68D9A00854AB1 /* AppDelegate.swift in Sources */,
+				EADC01D919D8D1BD0077D8A5 /* ContactInput.swift in Sources */,
+				EA7BCBD419C6B04B00854AB1 /* ContactDetailsViewController.swift in Sources */,
+				EA7BCBD219C6940100854AB1 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				EA7BCBCB19C68D9B00854AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA7BCBCC19C68D9B00854AB1 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				EA7BCBCE19C68D9B00854AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
